@@ -1,0 +1,13 @@
+name: Documentation checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 2
+      - name: Check introduced whitespace and conflict markers
+        run: git diff --check HEAD^ HEAD
