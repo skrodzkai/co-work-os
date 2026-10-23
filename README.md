@@ -90,6 +90,10 @@ against official documentation, vendor guidance, and — where noted — public 
 independent testing. Cowork changes monthly, so re-check
 [support.claude.com](https://support.claude.com) for anything load-bearing.
 
+Co-work OS is part of the [SKRODZKai](https://skrodzkai.com) portfolio. Related writing:
+[custom agent harnesses](https://skrodzkai.com/agent-harnesses) and
+[practical, model-agnostic AI training](https://skrodzkai.com/ai-training).
+
 ## License
 
 [MIT](LICENSE).
